@@ -6,7 +6,7 @@
 //     param.communityName
 
 module.exports = {
-    insert:'INSERT INTO User(id,accountName,nickname,avatarUrl,phone,communityName,address) VALUES(?,?,?,?,?,?,?)',
-    queryAll:'SELECT * FROM User WHERE address = ? ',
-    getUserById:'SELECT * FROM User WHERE id = ? ',
+    insert:'INSERT INTO user(id,accountName,nickname,avatarUrl,phone,communityName,address) VALUES(?,?,?,?,?,?,?)',
+    queryAll:'SELECT * FROM user WHERE address = ? ',
+    getUserById:'SELECT * FROM user WHERE id = ? ',
 };

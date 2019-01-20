@@ -191,6 +191,7 @@ body {
 .success-message__title {
   font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
   color: #3DC480;
+  font-weight: 200;
   transform: translateY(25px);
   opacity: 0;
   transition: all 200ms ease;

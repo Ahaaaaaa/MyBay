@@ -40,6 +40,7 @@ router.get('/sign', function (req, res) {
     });
 });
 
+
 router.get('/queryAll', function (req, res) {
     const param = req.query;
     pool.query(userSql.queryAll, [param.address], function (error, result) {
